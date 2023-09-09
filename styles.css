@@ -3,28 +3,41 @@
     font-weight: bold;
     text-align: center;
     font-size: 100px;
-    background-color: black;
-    color: white;
+    color: tomato;
+    padding: 10px;
 }
 
 li {
     font-family: "Courier New", sans-serif;
-    font-size: 50px;
-    text-align: center;
+    font-size: 30px;
     font-weight: lighter;
     color: darkgrey;
+    display: inline-block;
+    margin: 30px;
+  
 }
 
+div {
+    text-align: center;
+}
+
+
 .carbonara {
-    color: cadetblue;
+    background-color: cadetblue;
+    color: white;
+    padding: 12px;
 
 }
 
 .bakedmac {
-    color: bisque;
+    background-color: bisque;
+    color: white;
+    padding: 12px;
 
 }
 
 .lasagna {
-    color: darksalmon;
+    background-color: darksalmon;
+    color: white;
+    padding: 12px;
 }

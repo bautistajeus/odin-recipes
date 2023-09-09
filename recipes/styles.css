@@ -2,16 +2,25 @@ h1 {
     font-size: 50px;
     font-weight: bolder;
     text-decoration-color: aqua;
+    margin: 10px 5px 5px;
+    padding: 10px;
 }
 
 img {
-    width: 500px;
+    width: auto;
     height: auto;
+    margin: 5px 15px;
+    padding: 10px;
+    max-height: 500px;
+    max-width: 500px;
 }
 
 h2,
-h3 {
+h3, 
+p {
     font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 10px;
 }
 
 ul,
@@ -19,5 +28,10 @@ ol {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium;
     color: dimgray;
+    margin: 10px;
 }
 
+li {
+    margin: 4px;
+    padding: 5px;
+}
